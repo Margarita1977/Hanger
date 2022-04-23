@@ -10,23 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
     <script src="./js/sendform.js" defer></script>
     <script src="./js/scrollTo.js" defer></script>
+    <script src="./js/navscroll.js" defer></script>
 </head>
 <body>
     <header class="header">
         <nav class="container navigaihin">
             <a href="#" class="nav-item">HOME</a>
-            <a href="#" class="nav-item">ABOUT</a>
-            <a href="#" class="nav-item">TEAM</a>
-            <a href="#" class="nav-item">BOOKING</a>
+            <a href="#aboutus" class="nav-item">ABOUT</a>
+            <a href="#team" class="nav-item">TEAM</a>
+            <a href="#BOOKING" class="nav-item">BOOKING</a>
             <a href="/index.html" class="nav-logo">
                 <img src="./img/logo.svg" alt="logo" class="logo">
             </a>
-            <a href="#" class="nav-item">MENU</a>
-            <a href="#" class="nav-item">GALERIE</a>
-            <a href="#" class="nav-item">EVENTS</a>
-            <a href="#" class="nav-item">CONTACT</a>
+            <a href="#MENU" class="nav-item">MENU</a>
+            <a href="#GALERIE" class="nav-item">GALERIE</a>
+            <a href="#EVENTS" class="nav-item">EVENTS</a>
+            <a href="#CONTACT" class="nav-item">CONTACT</a>
         </nav>
         <!-- /.container navigaihin -->
     </header>
@@ -60,7 +62,7 @@
         <!-- /.container block -->
     </section>
     <!-- /.section section_promo -->
-    <section class="section section-aboutus">
+    <section id="aboutus" class="section section-aboutus">
         <div class="container block">
             <div class="section_text">
                 <h2 class="title section_title">
@@ -82,7 +84,7 @@
         <!-- /.container block -->
     </section>
     <!-- /.aboutus -->
-    <section class="section  section_master">
+    <section id="team" class="section  section_master">
         <div class="container  block_master">
             <h3 class="section_subtitle ">OUR TEAM</h3>
             <div class="content-master1 block">
@@ -108,7 +110,7 @@
         <!-- /.container block block_master -->
     </section>
     <!-- /.section section_master -->
-    <section class="section section-aboutus-book">
+    <section id="BOOKING" class="section section-aboutus-book">
         <div class="container block">
             <div class="section_text">
                 <h2 class="title section_title">
@@ -170,7 +172,7 @@
         <!-- /.container block block_master -->
     </section>
     <!-- /.section section_master -->
-    <section class=" section container">
+    <section id="MENU" class=" section container">
          <div class="text_menu">
             <h2 class="title section_title">
                 chocolate pancakes
@@ -327,7 +329,7 @@
 
     </section>
     <!-- /.menu -->
-    <section class="section  section_master">
+    <section id="GALERIE" class="section  section_master">
         <div class="container  block_master">
             <h3 class="section_subtitle ">OUR TEAM</h3>
             <div class="content-master-privat block">
@@ -364,7 +366,7 @@
         <img class="img" src="./img/3.jpg" alt="3">
         <img class="img" src="./img/4.jpg" alt="4">
     </div>
-    <section class=" section contact_form container">
+    <section id="EVENTS" class=" section contact_form container">
         <div class="text_menu">
            <h2 class="title section_title">
                chocolate pancakes
@@ -391,7 +393,7 @@
             </div>
         </form>
     </section>
-    <aside class="map">
+    <aside id="CONTACT" class="map">
         <script  async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3d36e56004bfce0fe8398b1708629c7ef10d3d3473bb35fbe076452852cd8662&amp;width=100%25&amp;height=475&amp;lang=ru_RU&amp;scroll=false"></script>
     </aside >
     <footer class="footer">
